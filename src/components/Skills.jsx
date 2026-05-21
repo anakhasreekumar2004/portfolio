@@ -1,49 +1,58 @@
 import React from "react";
 
-function Education() {
+function Skills() {
+
+  const skills = [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Tailwind CSS",
+    "C Programming",
+    "C++",
+    "Python",
+    "Git & GitHub",
+    "Responsive Design",
+  ];
+
   return (
-    <section className="bg-black text-white py-24 px-6 m-0">
-      <div className="max-w-5xl mx-auto">
+    <section className="w-full px-6 py-24 text-white">
+      
+      <div className="max-w-6xl mx-auto">
 
         {/* Heading */}
         <div className="text-center mb-16">
-          <p className="text-gray-400 uppercase tracking-[0.3em] text-sm mb-3">
-            Academic Journey
+
+          <p className="uppercase tracking-[0.3em] text-sm text-gray-400 mb-3">
+            What I Use
           </p>
 
           <h2 className="text-5xl md:text-6xl font-bold">
-            Education
+            Skills
           </h2>
+
         </div>
 
-        {/* Card */}
-        <div className="max-w-3xl mx-auto bg-[#111827] border border-gray-800 rounded-2xl p-8">
+        {/* Skills Grid */}
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
 
-          <div className="flex items-center justify-between flex-wrap gap-4 mb-6">
-
-            <span className="px-4 py-1 rounded-full text-xs font-semibold uppercase bg-gray-800 text-white">
-              Diploma
-            </span>
-
-            <span className="text-sm text-gray-400">
-              2024 - 2027
-            </span>
-
-          </div>
-
-          <h3 className="text-3xl font-bold mb-4">
-            Diploma in Computer Engineering
-          </h3>
-
-          <p className="text-lg text-gray-300">
-            Women’s Polytechnic College
-          </p>
+          {skills.map((skill, index) => (
+            <div
+              key={index}
+              className="border border-gray-700 rounded-2xl px-6 py-8 text-center bg-black/20 hover:-translate-y-1 hover:border-gray-400 transition-all duration-300"
+            >
+              <h3 className="text-lg md:text-xl font-semibold tracking-wide text-white">
+                {skill}
+              </h3>
+            </div>
+          ))}
 
         </div>
 
       </div>
+
     </section>
   );
 }
 
-export default Education;
+export default Skills;
