@@ -1,72 +1,49 @@
 import React from "react";
 
-function Skills() {
+function Education() {
   return (
-    <section className="w-full min-h-screen px-6 py-24 bg-[#020617] text-white overflow-hidden">
-      
-      <div className="max-w-6xl mx-auto">
+    <section className="bg-black text-white py-24 px-6 m-0">
+      <div className="max-w-5xl mx-auto">
 
         {/* Heading */}
-        <div className="flex items-center justify-between mb-14 flex-wrap gap-4">
+        <div className="text-center mb-16">
+          <p className="text-gray-400 uppercase tracking-[0.3em] text-sm mb-3">
+            Academic Journey
+          </p>
 
-          <div>
-            <p className="text-cyan-400 uppercase tracking-[0.25em] text-sm mb-2">
-              What I Use
-            </p>
-
-            <h2 className="text-5xl font-extrabold">
-              Skills
-            </h2>
-          </div>
-
-          <div className="w-32 h-[2px] bg-cyan-400"></div>
-
+          <h2 className="text-5xl md:text-6xl font-bold">
+            Education
+          </h2>
         </div>
 
-        {/* Skills Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+        {/* Card */}
+        <div className="max-w-3xl mx-auto bg-[#111827] border border-gray-800 rounded-2xl p-8">
 
-          {/* HTML */}
-          <div className="group rounded-2xl border border-slate-700 bg-slate-900 p-6 text-center transition-all duration-300 hover:-translate-y-2 hover:border-cyan-400 hover:shadow-[0_0_20px_rgba(34,211,238,0.4)]">
-            <h3 className="text-xl font-bold group-hover:text-cyan-400 transition">
-              HTML
-            </h3>
+          <div className="flex items-center justify-between flex-wrap gap-4 mb-6">
+
+            <span className="px-4 py-1 rounded-full text-xs font-semibold uppercase bg-gray-800 text-white">
+              Diploma
+            </span>
+
+            <span className="text-sm text-gray-400">
+              2024 - 2027
+            </span>
+
           </div>
 
-          {/* CSS */}
-          <div className="group rounded-2xl border border-slate-700 bg-slate-900 p-6 text-center transition-all duration-300 hover:-translate-y-2 hover:border-cyan-400 hover:shadow-[0_0_20px_rgba(34,211,238,0.4)]">
-            <h3 className="text-xl font-bold group-hover:text-cyan-400 transition">
-              CSS
-            </h3>
-          </div>
+          <h3 className="text-3xl font-bold mb-4">
+            Diploma in Computer Engineering
+          </h3>
 
-          {/* JavaScript */}
-          <div className="group rounded-2xl border border-slate-700 bg-slate-900 p-6 text-center transition-all duration-300 hover:-translate-y-2 hover:border-cyan-400 hover:shadow-[0_0_20px_rgba(34,211,238,0.4)]">
-            <h3 className="text-xl font-bold group-hover:text-cyan-400 transition">
-              JavaScript
-            </h3>
-          </div>
-
-          {/* React */}
-          <div className="group rounded-2xl border border-slate-700 bg-slate-900 p-6 text-center transition-all duration-300 hover:-translate-y-2 hover:border-cyan-400 hover:shadow-[0_0_20px_rgba(34,211,238,0.4)]">
-            <h3 className="text-xl font-bold group-hover:text-cyan-400 transition">
-              React
-            </h3>
-          </div>
-
-          {/* C Programming */}
-          <div className="group rounded-2xl border border-slate-700 bg-slate-900 p-6 text-center transition-all duration-300 hover:-translate-y-2 hover:border-cyan-400 hover:shadow-[0_0_20px_rgba(34,211,238,0.4)]">
-            <h3 className="text-xl font-bold group-hover:text-cyan-400 transition">
-              C Programming
-            </h3>
-          </div>
+          <p className="text-lg text-gray-300">
+            Women’s Polytechnic College
+          </p>
 
         </div>
 
       </div>
-
     </section>
   );
 }
 
-export default Skills;
+export default Education;
