@@ -1,4 +1,5 @@
 import React from "react";
+
 function Skills() {
   return (
 
@@ -24,7 +25,7 @@ function Skills() {
     {/* Skills Grid */}
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
 
-      {/* Skill Card */}
+      {/* HTML */}
       <div className="group relative overflow-hidden rounded-2xl border border-slate-700 bg-slate-800/50 p-6 text-center backdrop-blur-lg transition-all duration-500 hover:-translate-y-2 hover:border-cyan-400 hover:shadow-[0_0_30px_rgba(34,211,238,0.25)]">
         <div className="absolute inset-0 bg-gradient-to-br from-cyan-400/10 to-transparent opacity-0 group-hover:opacity-100 transition duration-500"></div>
 
@@ -33,6 +34,7 @@ function Skills() {
         </h3>
       </div>
 
+      {/* CSS */}
       <div className="group relative overflow-hidden rounded-2xl border border-slate-700 bg-slate-800/50 p-6 text-center backdrop-blur-lg transition-all duration-500 hover:-translate-y-2 hover:border-pink-500 hover:shadow-[0_0_30px_rgba(236,72,153,0.25)]">
         <div className="absolute inset-0 bg-gradient-to-br from-pink-500/10 to-transparent opacity-0 group-hover:opacity-100 transition duration-500"></div>
 
@@ -41,14 +43,16 @@ function Skills() {
         </h3>
       </div>
 
-      <div className="group relative overflow-hidden rounded-2xl border border-slate-700 bg-slate-800/50 p-6 text-center backdrop-blur-lg transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_0_30px_rgba(250,204,21,0.25)]">
-        <div className="absolute inset-0 bg-gradient-to-br to-transparent opacity-0 group-hover:opacity-100 transition duration-500"></div>
+      {/* JavaScript */}
+      <div className="group relative overflow-hidden rounded-2xl border border-slate-700 bg-slate-800/50 p-6 text-center backdrop-blur-lg transition-all duration-500 hover:-translate-y-2 hover:border-orange-400 hover:shadow-[0_0_30px_rgba(251,146,60,0.25)]">
+        <div className="absolute inset-0 bg-gradient-to-br from-orange-400/10 to-transparent opacity-0 group-hover:opacity-100 transition duration-500"></div>
 
-        <h3 className="relative z-10 text-xl font-bold  group-hover:text-white transition">
+        <h3 className="relative z-10 text-xl font-bold text-orange-300 group-hover:text-white transition">
           JavaScript
         </h3>
       </div>
 
+      {/* React */}
       <div className="group relative overflow-hidden rounded-2xl border border-slate-700 bg-slate-800/50 p-6 text-center backdrop-blur-lg transition-all duration-500 hover:-translate-y-2 hover:border-blue-400 hover:shadow-[0_0_30px_rgba(96,165,250,0.25)]">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-400/10 to-transparent opacity-0 group-hover:opacity-100 transition duration-500"></div>
 
@@ -57,10 +61,11 @@ function Skills() {
         </h3>
       </div>
 
-      <div className="group relative overflow-hidden rounded-2xl border border-slate-700 bg-slate-800/50 p-6 text-center backdrop-blur-lg transition-all duration-500 hover:-translate-y-2 hover:border-green-400 hover:shadow-[0_0_30px_rgba(74,222,128,0.25)]">
-        <div className="absolute inset-0 bg-gradient-to-br from-green-400/10 to-transparent opacity-0 group-hover:opacity-100 transition duration-500"></div>
+      {/* C Programming */}
+      <div className="group relative overflow-hidden rounded-2xl border border-slate-700 bg-slate-800/50 p-6 text-center backdrop-blur-lg transition-all duration-500 hover:-translate-y-2 hover:border-cyan-400 hover:shadow-[0_0_30px_rgba(34,211,238,0.25)]">
+        <div className="absolute inset-0 bg-gradient-to-br from-cyan-400/10 to-transparent opacity-0 group-hover:opacity-100 transition duration-500"></div>
 
-        <h3 className="relative z-10 text-xl font-bold text-green-300 group-hover:text-white transition">
+        <h3 className="relative z-10 text-xl font-bold text-cyan-300 group-hover:text-white transition">
           C Programming
         </h3>
       </div>
@@ -72,4 +77,5 @@ function Skills() {
 </section>
   );
 }
+
 export default Skills;
