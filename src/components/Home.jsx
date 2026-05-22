@@ -1,4 +1,5 @@
 import React from "react";
+import profile from "../assets/imgsss.jpeg";
 
 function Home() {
   return (
@@ -74,7 +75,7 @@ function Home() {
           {/* GLASS CARD */}
           <div className="relative backdrop-blur-xl bg-white/10 border border-white/20 rounded-[40px] p-5 animate-float shadow-[0_0_50px_rgba(34,211,238,0.4)]">
 
-           <img src="imgsss.jpeg"
+        <img src={profile}
   alt="profile"
   className="relative w-64 h-64 md:w-96 md:h-96 object-cover rounded-full border-slate-700/50 shadow-2xl transition-transform duration-500 group-hover:scale-[1.02]"
 />

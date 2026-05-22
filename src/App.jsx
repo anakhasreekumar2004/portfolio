@@ -21,11 +21,11 @@ function App() {
   <About />
 </section>
 
-<section id="education" className="min-h-screen bg-green-500">
+<section id="education" >
   <Education />
 </section>
 
-<section id="skills" className="min-h-screen bg-yellow-500">
+<section id="skills">
   <Skills />
 </section>
 
