@@ -41,10 +41,10 @@ function Skills() {
         </h3>
       </div>
 
-      <div className="group relative overflow-hidden rounded-2xl border border-slate-700 bg-slate-800/50 p-6 text-center backdrop-blur-lg transition-all duration-500 hover:-translate-y-2 hover:border-yellow-400 hover:shadow-[0_0_30px_rgba(250,204,21,0.25)]">
-        <div className="absolute inset-0 bg-gradient-to-br from-yellow-400/10 to-transparent opacity-0 group-hover:opacity-100 transition duration-500"></div>
+      <div className="group relative overflow-hidden rounded-2xl border border-slate-700 bg-slate-800/50 p-6 text-center backdrop-blur-lg transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_0_30px_rgba(250,204,21,0.25)]">
+        <div className="absolute inset-0 bg-gradient-to-br to-transparent opacity-0 group-hover:opacity-100 transition duration-500"></div>
 
-        <h3 className="relative z-10 text-xl font-bold text-yellow-300 group-hover:text-white transition">
+        <h3 className="relative z-10 text-xl font-bold  group-hover:text-white transition">
           JavaScript
         </h3>
       </div>
