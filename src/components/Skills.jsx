@@ -19,7 +19,7 @@ function Skills() {
         </h2>
       </div>
 
-      <div className="w-32 h-[2px] bg-gradient-to-r from-cyan-400 to-pink-500"></div>
+      <div className="w-32 h-[2px] bg-cyan-400"></div>
     </div>
 
     {/* Skills Grid */}
